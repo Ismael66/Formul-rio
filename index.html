@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <section>
+        <div>Nome:<input type="text" class="form-control margin" id="nome" value=""></div>
+        <div>CPF:<input type="text" id="cpf" class="form-control margin" value="" placeholder="000.000.000-00" data-mask="000.000.000-00"></div>
+        <div>Email:<input type="email" class="form-control margin" value="" id="email" placeholder="seuemail@gmail.com"></div>
+        <div>Cep:<input type="text" id="cep" value="" class="form-control margin" data-mask="00000-000" placeholder="00000-000"></div>
+        <div>Cidade:<input type="text" class="form-control margin" id="cidade" value=""></div>
+        <div>Estado:<input type="text" class="form-control margin" id="estado" value=""></div>
+        <div>Telefone:<input type="text" class="form-control margin" id="tel" value="" data-mask="(00)00000-0000" placeholder="(00)00000-0000"></div>
+        <div><input type="submit" class="form-control margin" id="submit" value="Submit"></div>
+    </section>
+    <footer>
+        <p>&copy; Ismaelll</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
